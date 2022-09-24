@@ -83,9 +83,9 @@ author:
   name             : "Peng Bo"
   avatar           : "profile.png"
   bio              : "SJTU 4. year undergraduate"
-  location         : "Shanghai
+  location         : "Shanghai"
   employer         :
-  pubmed           : #https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
+  pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   googlescholar    : #http://yourfullgooglescholarurl.com"
   email            : "peng_bo2019@sjtu.edu.cn"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
