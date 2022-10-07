@@ -10,8 +10,8 @@ redirect_from:
 Hi! I'm Peng Bo, currently a senior undergraduate student at Shanghai Jiao Tong University. Currently under the supervision of Professor Qiao Yu and Researcher Lu Chaochao. In the future, I will be pursuing a PhD under the joint education of Shanghai AI Lab and SJTU. Feel free to contact me if you have any questions.
 
 ## &#x1F603; Friends
-[Jie Xing](https://jxing0831.github.io/contact/), ICS undergraduate.
-[Yuang Peng](https://www.yuangpeng.cn/), CS undergraduate
+- [Jie Xing](https://jxing0831.github.io/contact/), ICS undergraduate.
+- [Yuang Peng](https://www.yuangpeng.cn/), CS undergraduate
 
 ## &#x2B50; Current Hobbies
 ### &#x1F3AC; Films & TV series
