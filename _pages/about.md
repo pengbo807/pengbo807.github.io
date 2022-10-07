@@ -11,6 +11,7 @@ Hi! I'm Peng Bo, currently a senior undergraduate student at Shanghai Jiao Tong 
 
 ## &#x1F603; Friends
 [Jie Xing](https://jxing0831.github.io/contact/), ICS undergraduate
+[Yuang Peng](https://www.yuangpeng.cn/), CS undergraduate
 
 ## &#x2B50; Current Hobbies
 ### &#x1F3AC; Films & TV series
