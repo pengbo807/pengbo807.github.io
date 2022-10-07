@@ -12,10 +12,10 @@ Hi! I'm Peng Bo, currently a senior undergraduate student at Shanghai Jiao Tong 
 ## &#x1F603; Friends
 [Jie Xing](https://jxing0831.github.io/contact/), ICS undergraduate
 
-## &#x2B50 Current Hobbies
-### &#x1F3AC Films & TV series
+## &#x2B50; Current Hobbies
+### &#x1F3AC; Films & TV series
 - [House of The Dragon](https://www.hbo.com/house-of-the-dragon)
 - [Cyberpunk Edgerunners](https://www.netflix.com/title/81054853)
 
-### &#x1F4D3 Books
+### &#x1F4D3; Books
 - The Moon and Sixpence
