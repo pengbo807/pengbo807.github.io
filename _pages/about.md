@@ -17,6 +17,7 @@ Hi! I'm Peng Bo, currently a senior undergraduate student at Shanghai Jiao Tong 
 ### &#x1F3AC; Films & TV series
 - [House of The Dragon](https://www.hbo.com/house-of-the-dragon)
 - [Cyberpunk Edgerunners](https://www.netflix.com/title/81054853)
+- [Stranger Things](https://www.netflix.com/lu-en/title/80057281)
 
 ### &#x1F4D3; Books
 - The Moon and Sixpence
