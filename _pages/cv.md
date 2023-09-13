@@ -14,10 +14,10 @@ Education
 * B.S. in Shanghai, Shanghai Jiao Tong University, 2023
 * Ph.D in Shanghai Jiao Tong University, 2029 (expected)
   
-Skills
+<!-- Skills
 ======
 * Python, C++
-* Skateboarding
+* Skateboarding -->
 
 <!-- Publications
 ======
