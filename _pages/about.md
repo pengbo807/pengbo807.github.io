@@ -14,7 +14,7 @@ Hello! My name is Peng Bo, and I'm in my initial year as a PhD student at Shangh
 
 ## Education
 -  B.S. in Shanghai, Shanghai Jiao Tong University, 2023
--  Ph.D in Shanghai Jiao Tong University, 2029 (expected)
+-  Ph.D in Shanghai Jiao Tong University, 2028 (expected)
 <!-- ## &#x2B50; Current Hobbies
 ### &#x1F3AC; Films & TV series
 - [House of The Dragon](https://www.hbo.com/house-of-the-dragon)
