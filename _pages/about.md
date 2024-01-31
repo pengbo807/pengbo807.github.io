@@ -11,15 +11,10 @@ Hello! My name is Peng Bo, and I'm in my initial year as a PhD student at Shangh
 
 ## &#x1F603; Current Works
 - [ConditionVideo: Training-Free Condition-Guided Text-to-Video Generation](https://pengbo807.github.io/conditionvideo-website/)
+  - Bo Peng, Xinyuan Chen*, Yaohui Wang, Chaochao Lu, Yu Qiao
+  - in Proceedings of the 38th AAAI Conference on Artificial Intelligence (AAAI)
 
 ## Education
 -  B.S. in Shanghai, Shanghai Jiao Tong University, 2023
 -  Ph.D in Shanghai Jiao Tong University, 2028 (expected)
-<!-- ## &#x2B50; Current Hobbies
-### &#x1F3AC; Films & TV series
-- [House of The Dragon](https://www.hbo.com/house-of-the-dragon)
-- [Cyberpunk Edgerunners](https://www.netflix.com/title/81054853)
-- [Stranger Things](https://www.netflix.com/lu-en/title/80057281)
 
-### &#x1F4D3; Books
-- The Moon and Sixpence -->
