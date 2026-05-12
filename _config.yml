@@ -7,10 +7,10 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Peng Bo / PhD."
+title                    : "Bo Peng / 彭博"
 title_separator          : "-"
-name                     : &name "Peng Bo"
-description              : &description "PhD in SJTU"
+name                     : &name "Bo Peng"
+description              : &description "PhD Student at SJTU · Causal Reasoning & LLMs"
 url                      : https://pengbo807.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "https://github.com/pengbo807/pengbo807.github.io/"
@@ -80,10 +80,10 @@ analytics:
 
 # Site Author
 author:
-  name             : "Peng Bo"
+  name             : "Bo Peng (彭博)"
   avatar           : "profile.png"
-  bio              : "SJTU 3rd Year PhD Student"
-  location         : "Shanghai"
+  bio              : "PhD Student @ SJTU & Shanghai AI Lab<br>Causal Reasoning · LLMs · AI Safety"
+  location         : "Shanghai, China"
   employer         :
   pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   googlescholar    : "https://scholar.google.com/citations?hl=en&user=PgTjA7cAAAAJ"
