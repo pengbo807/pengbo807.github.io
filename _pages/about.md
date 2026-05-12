@@ -25,7 +25,7 @@ Feel free to reach out if you'd like to collaborate or just chat about causality
 
 ## News
 
-- **[May 2026]** [CauScale](https://arxiv.org/abs/2506.02449) and [CauScientist](https://arxiv.org/abs/2506.02449) accepted to **ICML 2026**!
+- **[May 2026]** [CauScale](https://arxiv.org/abs/2602.08629) accepted to **ICML 2026**!
 - **[Sep 2025]** [IP-Dialog](https://arxiv.org/pdf/2506.02449) accepted to **EMNLP 2025 Findings**.
 - **[Sep 2024]** [CELLO](https://arxiv.org/abs/2406.19131) accepted to **EMNLP 2024**.
 - **[Dec 2023]** [ConditionVideo](https://pengbo807.github.io/conditionvideo-website/) accepted to **AAAI 2024**.
