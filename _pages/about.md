@@ -27,28 +27,26 @@ Feel free to reach out if you'd like to collaborate or just chat about causality
 
 - **[May 2026]** [CauScale](https://arxiv.org/abs/2602.08629) accepted to **ICML 2026**!
 - **[Sep 2025]** [IP-Dialog](https://arxiv.org/pdf/2506.02449) accepted to **EMNLP 2025 Findings**.
-- **[Sep 2024]** [CELLO](https://arxiv.org/abs/2406.19131) accepted to **EMNLP 2024**.
 - **[Dec 2023]** [ConditionVideo](https://pengbo807.github.io/conditionvideo-website/) accepted to **AAAI 2024**.
 
 ---
 
 ## Publications
+**CauScientist: Teaching LLMs to Respect Data for Causal Discovery**  
+**Bo Peng**, Sirui Chen, lei Xu, Chaochao Lu  
+*arXiv preprint, 2026* · [Paper](https://arxiv.org/abs/2601.13614) · [Code](https://github.com/OpenCausaLab/CauScientist)
 
 **CauScale: Neural Causal Discovery at Scale**  
-**Bo Peng**, Sirui Chen, Jian Tian, Yu Qiao, Chaochao Lu  
+**Bo Peng**, Sirui Chen, Jiaguo Tian, Yu Qiao, Chaochao Lu  
 *ICML 2026* · [Paper](https://arxiv.org/abs/2602.08629) · [Code](https://github.com/OpenCausaLab/CauScale)
 
-**CauScientist: Teaching LLMs to Respect Data for Causal Discovery**  
-**Bo Peng**, Sirui Chen, Libo Xu, Chaochao Lu  
-*arXiv preprint, 2026* · [Paper](https://arxiv.org/abs/2601.13614) · [Code](https://github.com/OpenCausaLab/CauScientist)
+**CauSight: Learning to Supersense for Visual Causal Discovery**  
+Yize Zhang\*, Meiqi Chen\*, Sirui Chen\*, **Bo Peng**\*, Yanxi Zhang, Tianyu Li, Chaochao Lu  
+*arXiv preprint, 2025* · [Paper](https://arxiv.org/abs/2512.01827)
 
 **IP-Dialog: Evaluating Implicit Personalization in Dialogue Systems with Synthetic Data**  
 **Bo Peng**\*, Zhiheng Wang\*, Heyang Gong, Chaochao Lu  
 *EMNLP Findings, 2025* · [Paper](https://arxiv.org/abs/2506.02449) · [ACL Anthology](https://aclanthology.org/2025.findings-emnlp.923/)
-
-**CauSight: Learning to Supersense for Visual Causal Discovery**  
-Yan Zhang, Meiqi Chen, Sirui Chen, **Bo Peng**, Yan Zhang, Tao Li, Chaochao Lu  
-*arXiv preprint, 2025* · [Paper](https://arxiv.org/abs/2512.01827)
 
 **Causal Evaluation of Language Models** (CaLM)  
 Sirui Chen\*, **Bo Peng**\*, Meiqi Chen, Ruiqi Wang, Mengying Xu, Xingyu Zeng, Rui Zhao, Shengjie Zhao, Yu Qiao, Chaochao Lu  
@@ -56,11 +54,11 @@ Sirui Chen\*, **Bo Peng**\*, Meiqi Chen, Ruiqi Wang, Mengying Xu, Xingyu Zeng, R
 
 **CELLO: Causal Evaluation of Large Vision-Language Models**  
 Meiqi Chen, **Bo Peng**, Yan Zhang, Chaochao Lu  
-*EMNLP, 2024* · [Paper](https://arxiv.org/abs/2406.19131) · <span style="color:#888">57 citations</span>
+*EMNLP, 2024* · [Paper](https://arxiv.org/abs/2406.19131)
 
 **ConditionVideo: Training-Free Condition-Guided Text-to-Video Generation**  
 **Bo Peng**, Xinyuan Chen\*, Yaohui Wang, Chaochao Lu, Yu Qiao  
-*AAAI, 2024* · [Project Page](https://pengbo807.github.io/conditionvideo-website/) · <span style="color:#888">24 citations</span>
+*AAAI, 2024* · [Project Page](https://pengbo807.github.io/conditionvideo-website/)
 
 ---
 
