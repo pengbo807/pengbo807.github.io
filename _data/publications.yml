@@ -1,0 +1,185 @@
+# Public publication metadata verified on 2026-10-08.
+# Stars indicate equal contribution, not corresponding authorship.
+# CauSight's EMNLP 2026 venue is confirmed by the authors' public pages:
+# https://causallu.com/research/ and https://zhangyx0417.github.io/.
+# CauAudit's public arXiv v2 does not mark equal contribution, although the
+# supplied CV describes Bo Peng as a co-first author; retain the public byline.
+
+- id: cauaudit
+  thumbnail: "/images/publications/cauaudit.webp"
+  thumbnail_alt: "Three-level causal intervention in CauAudit"
+  thumbnail_width: 600
+  thumbnail_height: 211
+  short_name: CauAudit
+  title: "The Illusion of Visual Tool-Use: A Causal Audit of Thinking with Images"
+  authors: "Zhiheng Wang, <strong>Bo Peng</strong>, Lai Wei, Chaochao Lu"
+  year: 2026
+  venue: "EMNLP · Findings"
+  status: published
+  categories: "agents causality multimodal"
+  summary: "A causal audit of whether visual tool outputs influence model decisions, with interventions at the policy, trajectory, and individual-step levels."
+  links:
+    - label: Paper
+      url: https://arxiv.org/abs/2608.06270
+    - label: Code
+      url: https://github.com/OpenCausaLab/CauAudit
+
+- id: causight
+  thumbnail: "/images/publications/causight.webp"
+  thumbnail_alt: "CauSight visual causal discovery and training pipeline"
+  thumbnail_width: 600
+  thumbnail_height: 383
+  short_name: CauSight
+  title: "CauSight: Learning to Supersense for Visual Causal Discovery"
+  authors: "Yize Zhang*, Meiqi Chen*, Sirui Chen*, <strong>Bo Peng</strong>*, Yanxi Zhang, Tianyu Li, Chaochao Lu"
+  year: 2026
+  venue: "EMNLP"
+  status: published
+  categories: "multimodal causality"
+  summary: "Visual causal discovery from images through VCG-32K, synthesized reasoning trajectories, and reinforcement learning with causal rewards."
+  links:
+    - label: Paper
+      url: https://arxiv.org/abs/2512.01827
+    - label: Code
+      url: https://github.com/OpenCausaLab/CauSight
+    - label: Dataset
+      url: https://huggingface.co/datasets/OpenCausaLab/VCG-32K
+    - label: Model
+      url: https://huggingface.co/OpenCausaLab/CauSight
+
+- id: causcale
+  thumbnail: "/images/publications/causcale.webp"
+  thumbnail_alt: "CauScale two-stream neural causal discovery architecture"
+  thumbnail_width: 600
+  thumbnail_height: 299
+  short_name: CauScale
+  title: "CauScale: Neural Causal Discovery at Scale"
+  authors: "<strong>Bo Peng</strong>, Sirui Chen, Jiaguo Tian, Yu Qiao, Chaochao Lu"
+  year: 2026
+  venue: "ICML"
+  status: published
+  categories: "causality"
+  summary: "An efficient neural architecture for causal discovery, scaling inference to graphs with up to 1,000 nodes through a two-stream design and shared attention."
+  links:
+    - label: Paper
+      url: https://arxiv.org/abs/2602.08629
+    - label: Code
+      url: https://github.com/OpenCausaLab/CauScale
+
+- id: clawmark
+  thumbnail: "/images/publications/clawmark.webp"
+  thumbnail_alt: "ClawMark task construction, runtime, and evaluation overview"
+  thumbnail_width: 600
+  thumbnail_height: 309
+  short_name: ClawMark
+  title: "ClawMark: A Living-World Benchmark for Multi-Turn, Multi-Day, Multimodal Coworker Agents"
+  authors: "Fanqing Meng, Lingxiao Du, Zijian Wu, &hellip;, <strong>Bo Peng</strong>, &hellip;, Michael Qizhe Shieh"
+  year: 2026
+  venue: "arXiv preprint"
+  status: preprint
+  categories: "agents multimodal"
+  summary: "A benchmark of 100 coworker tasks across 13 professional scenarios, with evolving service state, raw multimodal evidence, and 1,537 deterministic checks."
+  links:
+    - label: Paper
+      url: https://arxiv.org/abs/2604.23781
+    - label: Code
+      url: https://github.com/evolvent-ai/ClawMark
+    - label: Project
+      url: https://claw-mark.com/
+
+- id: causcientist
+  thumbnail: "/images/publications/causcientist.webp"
+  thumbnail_alt: "CauScientist initialization, verification, and iterative optimization"
+  thumbnail_width: 600
+  thumbnail_height: 325
+  short_name: CauScientist
+  title: "CauScientist: Teaching LLMs to Respect Data for Causal Discovery"
+  authors: "<strong>Bo Peng</strong>, Sirui Chen, Lei Xu, Chaochao Lu"
+  year: 2026
+  venue: "arXiv preprint"
+  status: preprint
+  categories: "causality agents"
+  summary: "Combines LLM-proposed causal hypotheses with statistical verification and error memory to guide causal structure search."
+  links:
+    - label: Paper
+      url: https://arxiv.org/abs/2601.13614
+    - label: Code
+      url: https://github.com/OpenCausaLab/CauScientist
+
+- id: ip-dialog
+  thumbnail: "/images/publications/ip-dialog.webp"
+  thumbnail_alt: "IP-Dialog example contrasting implicit personalized and non-personalized agents"
+  thumbnail_width: 600
+  thumbnail_height: 562
+  short_name: IP-Dialog
+  title: "IP-Dialog: Evaluating Implicit Personalization in Dialogue Systems with Synthetic Data"
+  authors: "<strong>Bo Peng</strong>*, Zhiheng Wang*, Heyang Gong, Chaochao Lu"
+  year: 2025
+  venue: "EMNLP · Findings"
+  status: published
+  categories: "agents generation"
+  summary: "A synthetic-data benchmark and training pipeline for inferring implicit user attributes from dialogue, covering 10 tasks and 12 attribute types."
+  links:
+    - label: Paper
+      url: https://aclanthology.org/2025.findings-emnlp.923/
+    - label: Code
+      url: https://github.com/OpenCausaLab/IP-Dialog
+
+- id: cello
+  thumbnail: "/images/publications/cello.webp"
+  thumbnail_alt: "CELLO visual causal evaluation dataset construction"
+  thumbnail_width: 600
+  thumbnail_height: 437
+  short_name: CELLO
+  title: "CELLO: Causal Evaluation of Large Vision-Language Models"
+  authors: "Meiqi Chen, <strong>Bo Peng</strong>, Yan Zhang, Chaochao Lu"
+  year: 2024
+  venue: "EMNLP"
+  status: published
+  categories: "multimodal causality"
+  summary: "Evaluates visual causal reasoning through 14,094 questions spanning discovery, association, intervention, and counterfactual reasoning."
+  links:
+    - label: Paper
+      url: https://aclanthology.org/2024.emnlp-main.1247/
+    - label: Code
+      url: https://github.com/OpenCausaLab/CELLO
+
+- id: calm
+  thumbnail: "/images/publications/calm.webp"
+  thumbnail_alt: "CaLM evaluation framework with causal targets, adaptation, metrics, and errors"
+  thumbnail_width: 600
+  thumbnail_height: 193
+  short_name: CaLM
+  title: "Causal Evaluation of Language Models"
+  authors: "Sirui Chen*, <strong>Bo Peng</strong>*, Meiqi Chen, Ruiqi Wang, Mengying Xu, Xingyu Zeng, Rui Zhao, Shengjie Zhao, Yu Qiao, Chaochao Lu"
+  year: 2024
+  venue: "Technical report"
+  status: preprint
+  categories: "causality"
+  summary: "A framework and benchmark for evaluating language models across causal tasks, prompting strategies, metrics, and error types."
+  links:
+    - label: Paper
+      url: https://arxiv.org/abs/2405.00622
+    - label: Project
+      url: https://opencausalab.github.io/CaLM/
+    - label: Code
+      url: https://github.com/OpenCausaLab/CaLM
+
+- id: conditionvideo
+  thumbnail: "/images/publications/conditionvideo.webp"
+  thumbnail_alt: "ConditionVideo training-free video generation pipeline"
+  thumbnail_width: 600
+  thumbnail_height: 210
+  short_name: ConditionVideo
+  title: "ConditionVideo: Training-Free Condition-Guided Video Generation"
+  authors: "<strong>Bo Peng</strong>, Xinyuan Chen, Yaohui Wang, Chaochao Lu, Yu Qiao"
+  year: 2024
+  venue: "AAAI"
+  status: published
+  categories: "generation multimodal"
+  summary: "Training-free video generation using pretrained image diffusion models, with condition-guided motion and improved temporal coherence."
+  links:
+    - label: Paper
+      url: https://ojs.aaai.org/index.php/AAAI/article/view/28244
+    - label: Code
+      url: https://github.com/pengbo807/ConditionVideo

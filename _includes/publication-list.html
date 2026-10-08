@@ -1,0 +1,24 @@
+<div class="publication-list{% if include.thumbnails %} publication-list-illustrated{% endif %}" id="publication-list">
+  {% assign previous_year = '' %}
+  {% for paper in site.data.publications %}
+  {% if include.group_by_year and paper.year != previous_year %}
+  <h3 class="publication-year-heading">{{ paper.year }}</h3>
+  {% assign previous_year = paper.year %}
+  {% endif %}
+  <article class="publication{% if include.thumbnails and paper.thumbnail %} publication-with-image{% endif %}" id="paper-{{ paper.id }}">
+    {% if include.thumbnails and paper.thumbnail %}
+    <a class="publication-image" href="{{ paper.links.first.url }}" aria-label="Read {{ paper.short_name | escape }}">
+      <span class="publication-badge{% if paper.status == 'preprint' %} publication-badge-preprint{% endif %}">{{ paper.venue | escape }} {{ paper.year }}</span>
+      <img src="{{ paper.thumbnail | relative_url }}" alt="{{ paper.thumbnail_alt | escape }}" loading="lazy" decoding="async" width="{{ paper.thumbnail_width }}" height="{{ paper.thumbnail_height }}">
+    </a>
+    {% endif %}
+    <div class="publication-body">
+      {% if include.group_by_year %}<h4>{% else %}<h3>{% endif %}{% if paper.links.first.url %}<a href="{{ paper.links.first.url }}">{{ paper.title | escape }}</a>{% else %}{{ paper.title | escape }}{% endif %}{% if include.group_by_year %}</h4>{% else %}</h3>{% endif %}
+      <p class="publication-authors">{{ paper.authors }}</p>
+      <p class="publication-venue">{{ paper.venue | escape }} {{ paper.year }}</p>
+      <div class="paper-links">{% for link in paper.links %}<a href="{{ link.url }}" aria-label="{{ link.label | escape }}: {{ paper.short_name | escape }}">[{{ link.label | escape }}]</a>{% endfor %}</div>
+      <p class="publication-summary">{{ paper.summary | escape }}</p>
+    </div>
+  </article>
+  {% endfor %}
+</div>

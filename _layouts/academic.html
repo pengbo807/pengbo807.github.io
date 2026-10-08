@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    {% assign meta_title = page.seo_title | default: page.title %}
+    {% assign meta_description = page.description | default: site.description %}
+    <title>{{ meta_title | escape }} · Bo Peng</title>
+    <meta name="description" content="{{ meta_description | escape }}">
+    <meta name="author" content="Bo Peng">
+    {% if page.sitemap == false %}<meta name="robots" content="noindex, follow">{% endif %}
+    <meta name="theme-color" content="#ffffff">
+    <link rel="canonical" href="{{ page.url | absolute_url }}">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Bo Peng · Research">
+    <meta property="og:title" content="{{ meta_title | escape }} · Bo Peng">
+    <meta property="og:description" content="{{ meta_description | escape }}">
+    <meta property="og:url" content="{{ page.url | absolute_url }}">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="{{ meta_title | escape }} · Bo Peng">
+    <meta name="twitter:description" content="{{ meta_description | escape }}">
+    <link rel="icon" href="{{ '/images/favicon.svg' | relative_url }}" type="image/svg+xml">
+    <link rel="stylesheet" href="{{ '/assets/css/academic.css' | relative_url }}">
+    <script src="{{ '/assets/js/academic.js' | relative_url }}" defer></script>
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Bo Peng",
+        "alternateName": "彭博",
+        "url": {{ '/' | absolute_url | jsonify }},
+        "jobTitle": "PhD student",
+        "affiliation": [
+          {"@type": "Organization", "name": "Shanghai Jiao Tong University"},
+          {"@type": "Organization", "name": "Shanghai Artificial Intelligence Laboratory"}
+        ],
+        "sameAs": [
+          "https://github.com/pengbo807",
+          "https://scholar.google.com/citations?user=PgTjA7cAAAAJ"
+        ]
+      }
+    </script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header">
+      <div class="site-wrap header-inner">
+        <a class="home-link" href="{{ '/' | relative_url }}">Homepage</a>
+        <nav class="main-nav" aria-label="Main navigation" id="site-navigation">
+          <a href="{{ '/#about-me' | relative_url }}"{% if page.home %} data-section="about-me"{% endif %}>About Me</a>
+          <a href="{{ '/#news' | relative_url }}"{% if page.home %} data-section="news"{% endif %}>News</a>
+          <a href="{{ '/#publications' | relative_url }}"{% if page.home %} data-section="publications"{% endif %}>Publications</a>
+          <a href="{{ '/#education' | relative_url }}"{% if page.home %} data-section="education"{% endif %}>Education</a>
+          <a href="{{ '/#internships' | relative_url }}"{% if page.home %} data-section="internships"{% endif %}>Internships</a>
+        </nav>
+        <button class="nav-toggle" type="button" aria-label="Open navigation" aria-expanded="false" aria-controls="site-navigation" hidden><span></span><span></span><span></span></button>
+      </div>
+    </header>
+    <div class="site-wrap academic-frame">
+      <aside class="profile-sidebar" aria-label="Personal information">
+        <div class="profile-identity">
+          <a class="profile-name" href="{{ '/' | relative_url }}">Bo Peng <span lang="zh">彭博</span></a>
+          <p class="profile-role">Ph.D. student at<br>Shanghai Jiao Tong University.</p>
+          <p class="profile-interests">AI agents, model evaluation,<br>post-training, and causal reasoning.</p>
+        </div>
+        <ul class="profile-links">
+          <li>{% include profile-icon.html icon="location" %}<span>Shanghai, China</span></li>
+          <li>{% include profile-icon.html icon="university" %}<a href="https://www.sjtu.edu.cn/">Shanghai Jiao Tong University</a></li>
+          <li>{% include profile-icon.html icon="lab" %}<a href="https://www.shlab.org.cn/">Shanghai AI Lab</a></li>
+          <li>{% include profile-icon.html icon="email" %}<a href="mailto:{{ site.author.email }}">Email</a></li>
+          <li>{% include profile-icon.html icon="github" %}<a href="https://github.com/pengbo807">GitHub</a></li>
+          <li>{% include profile-icon.html icon="scholar" %}<a href="https://scholar.google.com/citations?user=PgTjA7cAAAAJ">Google Scholar</a></li>
+        </ul>
+      </aside>
+      <main id="main" class="page-content" tabindex="-1">{{ content }}</main>
+    </div>
+    <footer class="site-footer"><div class="site-wrap"><p>© {{ 'now' | date: '%Y' }} Bo Peng. <a href="mailto:{{ site.author.email }}">Contact</a> · <a href="{{ '/sitemap/' | relative_url }}">Sitemap</a></p></div></footer>
+  </body>
+</html>
