@@ -4,6 +4,29 @@
 # https://causallu.com/research/ and https://zhangyx0417.github.io/.
 # CauAudit's public arXiv v2 does not mark equal contribution, although the
 # supplied CV describes Bo Peng as a co-first author; retain the public byline.
+# CauTion metadata and equal contribution verified against arXiv:2606.03602v1
+# on 2026-10-09. Its GitHub repository currently announces code as coming soon.
+
+- id: clawmark
+  thumbnail: "/images/publications/clawmark.webp"
+  thumbnail_alt: "ClawMark task construction, runtime, and evaluation overview"
+  thumbnail_width: 600
+  thumbnail_height: 309
+  short_name: ClawMark
+  title: "ClawMark: A Living-World Benchmark for Multi-Turn, Multi-Day, Multimodal Coworker Agents"
+  authors: "Fanqing Meng, Lingxiao Du, Zijian Wu, &hellip;, <strong>Bo Peng</strong>, &hellip;, Michael Qizhe Shieh"
+  year: 2026
+  venue: "arXiv preprint"
+  status: preprint
+  categories: "agents multimodal"
+  summary: "A benchmark of 100 coworker tasks across 13 professional scenarios, with evolving service state, raw multimodal evidence, and 1,537 deterministic checks."
+  links:
+    - label: Paper
+      url: https://arxiv.org/abs/2604.23781
+    - label: Code
+      url: https://github.com/evolvent-ai/ClawMark
+    - label: Project
+      url: https://claw-mark.com/
 
 - id: cauaudit
   thumbnail: "/images/publications/cauaudit.webp"
@@ -66,26 +89,24 @@
     - label: Code
       url: https://github.com/OpenCausaLab/CauScale
 
-- id: clawmark
-  thumbnail: "/images/publications/clawmark.webp"
-  thumbnail_alt: "ClawMark task construction, runtime, and evaluation overview"
+- id: caution
+  thumbnail: "/images/publications/caution.webp"
+  thumbnail_alt: "CauTion algorithm ensemble, trust-calibrated arbitration, and cycle repair"
   thumbnail_width: 600
-  thumbnail_height: 309
-  short_name: ClawMark
-  title: "ClawMark: A Living-World Benchmark for Multi-Turn, Multi-Day, Multimodal Coworker Agents"
-  authors: "Fanqing Meng, Lingxiao Du, Zijian Wu, &hellip;, <strong>Bo Peng</strong>, &hellip;, Michael Qizhe Shieh"
+  thumbnail_height: 277
+  short_name: CauTion
+  title: "CauTion: Knowing When to Trust LLMs for Ensemble Causal Discovery"
+  authors: "<strong>Bo Peng</strong>*, Kaiwen Wu*, Sirui Chen, Zhiheng Wang, Yu Qiao, Chaochao Lu"
   year: 2026
   venue: "arXiv preprint"
   status: preprint
-  categories: "agents multimodal"
-  summary: "A benchmark of 100 coworker tasks across 13 professional scenarios, with evolving service state, raw multimodal evidence, and 1,537 deterministic checks."
+  categories: "causality"
+  summary: "Combines statistical algorithm consensus with reliability-calibrated LLM arbitration to resolve disputed causal relations, followed by cycle repair."
   links:
     - label: Paper
-      url: https://arxiv.org/abs/2604.23781
-    - label: Code
-      url: https://github.com/evolvent-ai/ClawMark
+      url: https://arxiv.org/abs/2606.03602
     - label: Project
-      url: https://claw-mark.com/
+      url: https://github.com/OpenCausaLab/CauTion
 
 - id: causcientist
   thumbnail: "/images/publications/causcientist.webp"

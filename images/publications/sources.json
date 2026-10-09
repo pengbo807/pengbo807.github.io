@@ -117,6 +117,19 @@
       "bytes": 31672,
       "license": "CC BY 4.0",
       "license_url": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    {
+      "id": "caution",
+      "file": "/images/publications/caution.webp",
+      "alt": "CauTion algorithm ensemble, trust-calibrated arbitration, and cycle repair",
+      "source_url": "https://raw.githubusercontent.com/OpenCausaLab/CauTion/main/assets/main_figure.png",
+      "retrieved_on": "2026-10-09",
+      "modifications": "Original figure preserved without cropping; transparency composited onto white; resized to 600px width.",
+      "width": 600,
+      "height": 277,
+      "bytes": 27876,
+      "license": "No repository-wide license declared; author-provided research figure used to illustrate the coauthor's publication on his personal website.",
+      "license_url": null
     }
   ],
   "repository_license_notices": {
