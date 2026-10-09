@@ -11,8 +11,8 @@ redirect_from:
 
 <section id="about-me" class="about-section" aria-labelledby="about-heading">
   <h1 id="about-heading" class="sr-only">About Bo Peng</h1>
-  <p>I am a Ph.D. student at <a href="https://www.sjtu.edu.cn/">Shanghai Jiao Tong University</a>, expected to graduate in 2028. I received my bachelor's degree from SJTU in 2023.</p>
-  <p>I am advised by <a href="https://scholar.google.com/citations?user=gFtI-8QAAAAJ">Prof. Yu Qiao</a> and work with <a href="https://causallu.com/">Dr. Chaochao Lu</a>. I am also a research intern at <a href="https://www.shlab.org.cn/">Shanghai AI Laboratory</a> and a member of the Wu Wenjun AI Honors PhD Program.</p>
+  <p>I am a Ph.D. student in Computer Science at <a href="https://www.sjtu.edu.cn/">Shanghai Jiao Tong University (SJTU)</a>, advised by <a href="https://scholar.google.com/citations?user=gFtI-8QAAAAJ">Prof. Yu Qiao</a> and working with <a href="https://causallu.com/">Dr. Chaochao Lu</a>. I am a member of the Wu Wenjun AI Honors PhD Program and expect to graduate in 2028. I received my bachelor's degree from SJTU in 2023. My research focuses on AI agents, model evaluation, LLM post-training, and causal reasoning.</p>
+  <p>I am currently a research intern at <a href="https://www.shlab.org.cn/">Shanghai AI Laboratory</a> (Nov 2022–present).</p>
   <p class="intro-links"><a href="mailto:peng_bo2019@sjtu.edu.cn">Email</a><span aria-hidden="true"> / </span><a href="https://scholar.google.com/citations?user=PgTjA7cAAAAJ">Google Scholar</a><span aria-hidden="true"> / </span><a href="https://github.com/pengbo807">GitHub</a></p>
 </section>
 
