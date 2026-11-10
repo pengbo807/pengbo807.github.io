@@ -52,7 +52,11 @@ p, h1, h2, h3, h4 { margin: 0; }
 .news-date { font-weight: 600; font-style: italic; display: inline-block; margin-right: 6px; }
 .authorship-note { font-size: 14px; }
 .authorship-note a { font-size: 13px; margin-left: 7px; }
-.publication-year-heading { font-size: 18px; font-weight: 700; margin: 19px 0 4px; }
+.publication-topics-nav { display: flex; flex-wrap: wrap; gap: 8px 22px; margin: 15px 0 23px; font-size: 14px; }
+.publication-topic { margin-top: 28px; scroll-margin-top: 16px; }
+.publication-topic:first-child { margin-top: 0; }
+.publication-topic-heading { color: var(--link); font-size: 19px; font-weight: 700; line-height: 1.4; margin-bottom: 10px; }
+.publication-topic-intro { line-height: 1.65; margin-bottom: 2px !important; }
 .publication { padding: 23px 0; border-bottom: 1px solid var(--line); scroll-margin-top: 76px; }
 .publication:last-child { border-bottom: 0; }
 .publication-with-image { display: grid; grid-template-columns: minmax(0, 40%) minmax(0, 1fr); gap: 29px; align-items: center; }

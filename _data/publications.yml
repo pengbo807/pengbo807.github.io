@@ -174,10 +174,10 @@
   title: "Causal Evaluation of Language Models"
   authors: "Sirui Chen*, <strong>Bo Peng</strong>*, Meiqi Chen, Ruiqi Wang, Mengying Xu, Xingyu Zeng, Rui Zhao, Shengjie Zhao, Yu Qiao, Chaochao Lu"
   year: 2024
-  venue: "Technical report"
+  venue: "Shanghai AI Lab Technical Report"
   status: preprint
   categories: "causality"
-  summary: "A framework and benchmark for evaluating language models across causal tasks, prompting strategies, metrics, and error types."
+  summary: "A comprehensive analysis of the causal reasoning capabilities of language models, using a dataset of 126,334 samples."
   links:
     - label: Paper
       url: https://arxiv.org/abs/2405.00622

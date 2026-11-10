@@ -29,8 +29,12 @@ redirect_from:
 
 <section id="publications" class="content-section" aria-labelledby="publications-heading">
   <h2 id="publications-heading"><span aria-hidden="true">📝</span> Publications</h2>
+  <p>My research has led me to explore three important areas of AI: LLMs and agents, video generation, and causality. Each addresses a different aspect of building AI systems that are useful in the real world.</p>
   <p class="authorship-note">* Equal contribution. <a href="https://scholar.google.com/citations?user=PgTjA7cAAAAJ">Full publication list on Google Scholar.</a></p>
-  {% include publication-list.html thumbnails=true group_by_year=true %}
+  <nav class="publication-topics-nav" aria-label="Publication research areas">
+    {% for topic in site.data.publication_topics %}<a href="#publications-{{ topic.id }}">{{ topic.title | escape }}</a>{% endfor %}
+  </nav>
+  {% include publication-list.html thumbnails=true %}
 </section>
 
 <section id="research" class="content-section" aria-labelledby="research-heading">

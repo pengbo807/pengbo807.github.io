@@ -1,0 +1,24 @@
+- id: llm-agents
+  title: "LLM & Agent"
+  introduction: "LLMs are increasingly used as agents that collaborate with people, use tools, and carry out tasks over time. My work examines how to evaluate these capabilities in realistic settings, understand whether models truly use visual tools, and adapt dialogue to users' implicit needs."
+  papers:
+    - clawmark
+    - cauaudit
+    - ip-dialog
+
+- id: video-generation
+  title: "Video Generation"
+  introduction: "Video generation can support filmmaking, animation, and education by making visual storytelling and content creation more accessible. My work explores controllable video generation, using pretrained image models to follow motion conditions while maintaining temporal consistency without additional training."
+  papers:
+    - conditionvideo
+
+- id: causality
+  title: "Causality"
+  introduction: "Causal reasoning helps us move beyond correlations to understand why things happen and what might change when we intervene. It is essential for scientific discovery and informed decision-making. My work spans causal evaluation of language and vision-language models, visual and scalable causal discovery, and combining LLM knowledge with statistical evidence."
+  papers:
+    - caution
+    - causcientist
+    - causcale
+    - causight
+    - cello
+    - calm
